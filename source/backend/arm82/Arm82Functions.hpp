@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include "core/Macro.h"
 #include "backend/cpu/CPUBackend.hpp"
 namespace MNN {

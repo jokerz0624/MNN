@@ -346,6 +346,7 @@ bool OpCommonUtils::opCompabilityForLowp(const Op* op) {
         case OpType_DeconvolutionDepthwise:
         case OpType_MatMul:
         case OpType_BatchMatMul:
+        case OpType_GridSample:
             return true;
         default:
             break;
